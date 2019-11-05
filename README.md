@@ -8,6 +8,8 @@ cd into client ```npm install``` ```npm run build```
 
 cd into server ```npm start```
 
+```./news_pipeline_launcher.sh```
+
 ## Used
 Front-end: React
 
