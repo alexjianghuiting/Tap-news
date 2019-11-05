@@ -23,6 +23,8 @@ Back-end: python RPCServer, redis, express, mongodb, RabbitMQ
 
 Model: NLP, DNN, Tensorflow
   
->use to predict the topic and update user's preference from their click events
+>use to predict the topic 
+
+>update user's preference from their click events by using Time decay model p = (1-α)p + α & p = (1-α)p
 
 >use pairwise_sim = tfidf * tfidf.T to de-duplicate similar news
